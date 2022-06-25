@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  /* background-color: rgb(230, 166, 82); */
+  padding: 10px;
+  border: 0.5px solid rgb(199, 198, 198);
+  border-radius: 4px;
+}
+.container p {
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.container #btn {
+  width: 50%;
+  margin: 3px;
+  border: none;
+  margin-left: 25%;
+  background-color: blue;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.output #inputId {
+  width: 60%;
+  padding: 3px;
+  border-radius: 4px;
+  color: blue;
+  outline: none;
+  border: 1px solid blue;
+}
+.output #btnId {
+  width: 20%;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: green;
+
+  margin-bottom: 10px;
+}
+.output #btnIddel {
+  width: 20%;
+  color: white;
+  border: none;
+  background-color: red;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+#msg{
+    font-size: 220x;
+    font-weight: 500;
+}
+
